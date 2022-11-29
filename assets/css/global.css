@@ -19,6 +19,10 @@ body {
     margin: 0;
 }
 
+.blur {
+    filter: blur(5px);
+}
+
 
 
 @media screen and (min-width:992px) {

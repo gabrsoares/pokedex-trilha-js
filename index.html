@@ -31,12 +31,37 @@
             <button id="loadMoreButton" type="button">Load More</button>
         </div>
 
+        <!--Modal Pokemons-->
+        <div id="modalPokemon" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close"><img src="./assets/images/back-svgrepo-com.svg" alt="Close"></span>
+                </div>
+                <div class="modal-body">
+                    <div class="poke-data">
+                        <span class="poke-name">Bulbasaur</span>
+                        <ol class="types-list">
+                            <li class="type-item">Grass</li>
+                            <li class="type-item">Poison</li>
+                        </ol>
+                    </div>
+                    <div class="poke-number">
+                        <span class="modal-number">#001</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <img class="modal-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!-- Custom Js-->
     <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/modal.js"></script>
 
 </body>
 </html>
